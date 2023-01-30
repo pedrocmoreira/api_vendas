@@ -1,8 +1,8 @@
+import 'reflect-metadata';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 
 import routes from './routes';
-import { request } from 'http';
 import AppError from './errors/AppError';
 
 const app = express();
