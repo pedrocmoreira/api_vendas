@@ -7,7 +7,7 @@ interface IRequest {
   id: string;
 }
 
-export default class ShowProfileService {
+export default class ShowCustomerService {
   public async execute({ id }: IRequest): Promise<Customer> {
     const customersRepository = getCustomRepository(CustomersRepository);
 
